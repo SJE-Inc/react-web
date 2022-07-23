@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-web/static/css/main.481f23f2.css",
-    "main.js": "/react-web/static/js/main.11a37939.js",
+    "main.css": "/react-web/static/css/main.98bae3b6.css",
+    "main.js": "/react-web/static/js/main.4aefeec0.js",
     "static/media/video.mp4": "/react-web/static/media/video.5f5072eb9205f06ff345.mp4",
     "static/media/svg-5.svg": "/react-web/static/media/svg-5.3c7bbec9a7154a5ff1d2197b9cbc0ffd.svg",
     "static/media/svg-2.svg": "/react-web/static/media/svg-2.15cfa7708d74bd7a45449d7418a5c626.svg",
@@ -10,11 +10,11 @@
     "static/media/svg-4.svg": "/react-web/static/media/svg-4.ab27f3d3b329f28a52cfd3351d218c27.svg",
     "static/media/svg-6.svg": "/react-web/static/media/svg-6.7dd336a72b2c0d706cd9b739a8b82b3f.svg",
     "index.html": "/react-web/index.html",
-    "main.481f23f2.css.map": "/react-web/static/css/main.481f23f2.css.map",
-    "main.11a37939.js.map": "/react-web/static/js/main.11a37939.js.map"
+    "main.98bae3b6.css.map": "/react-web/static/css/main.98bae3b6.css.map",
+    "main.4aefeec0.js.map": "/react-web/static/js/main.4aefeec0.js.map"
   },
   "entrypoints": [
-    "static/css/main.481f23f2.css",
-    "static/js/main.11a37939.js"
+    "static/css/main.98bae3b6.css",
+    "static/js/main.4aefeec0.js"
   ]
 }
