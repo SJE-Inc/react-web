@@ -3,13 +3,15 @@ import Video from '../../videos/video.mp4'
 import { HeroBg, HeroContainer, Scroll, VideoBg, HeroContent, HeroH1, Green, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight, ScrollWrapper } from './HeroElements'
 import { Button } from '../BtnElement'
 const HeroSection = () => {
+
     const [hover, setHover] = useState(false)
 
     const onHover = () => {
         setHover(!hover)
     }
 
-    // let VH = `${window.innerHeight * 0.01}px`;
+    // let vh = `${window.innerHeight * 0.01}px`;
+    // document.documentElement.style.setProperty('--vh', `${vh}px`);
 
     return (
         <HeroContainer id="home">

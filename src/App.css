@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
   font-family: 'League Spartan', sans-serif;
-  height: --webkit-fill-available;
 
 }
+
+/* body {
+  position: fixed;
+  height: 100%;
+} */

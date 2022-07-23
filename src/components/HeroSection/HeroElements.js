@@ -7,10 +7,10 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
+    height: auto !important;
     min-height: 100vh;
-    height: -webkit-fill-available;
     width: 100%;
-    position: relative; 
+    position: sticky; 
     z-index: 1;
 
     &:after{

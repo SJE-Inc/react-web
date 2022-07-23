@@ -146,9 +146,9 @@ export const FirstName = styled.input.attrs({
     padding: 5px 17px;
     border-radius: 50px;
     border: 1px solid rgba(0,0,0, .1);
-    -webkit-box-shadow: 5px 5px 15px 2px #000000;
+    /* -webkit-box-shadow: 5px 5px 15px 2px #000000;
     -moz-box-shadow: 5px 5px 15px 2px #000000; 
-    box-shadow: 5px 5px 15px 2px #aaaaaa95;
+    box-shadow: 5px 5px 15px 2px #aaaaaa95; */
 
 `
 export const LastName = styled.input.attrs({
@@ -163,9 +163,9 @@ export const LastName = styled.input.attrs({
     padding: 5px 17px;
     border-radius: 50px;
     border: 1px solid rgba(0,0,0, .1);
-    -webkit-box-shadow: 5px 5px 15px 2px #000000; 
+    /* -webkit-box-shadow: 5px 5px 15px 2px #000000; 
     -moz-box-shadow: 5px 5px 15px 2px #000000; 
-    box-shadow: 5px 5px 15px 2px #aaaaaa95;
+    box-shadow: 5px 5px 15px 2px #aaaaaa95; */
 `
 export const Email = styled.input.attrs({
     type: 'email',
@@ -178,9 +178,9 @@ export const Email = styled.input.attrs({
     padding: 5px 17px;
     border-radius: 50px;
     border: 1px solid rgba(0,0,0, .1);
-    -webkit-box-shadow: 5px 5px 15px 2px #000000;
+    /* -webkit-box-shadow: 5px 5px 15px 2px #000000;
     -moz-box-shadow: 5px 5px 15px 2px #000000;  
-    box-shadow: 5px 5px 15px 2px #aaaaaa95;
+    box-shadow: 5px 5px 15px 2px #aaaaaa95; */
 
 `
 
@@ -195,9 +195,9 @@ export const Number = styled.input.attrs({
     padding: 5px 17px;
     border-radius: 50px;
     border: 1px solid rgba(0,0,0, .1);
-    -webkit-box-shadow: 5px 5px 15px 2px #000000; 
+    /* -webkit-box-shadow: 5px 5px 15px 2px #000000; 
     -moz-box-shadow: 5px 5px 15px 2px #000000; 
-    box-shadow: 5px 5px 15px 2px #aaaaaa95;
+    box-shadow: 5px 5px 15px 2px #aaaaaa95; */
 
 `
 export const Address = styled.input.attrs({
@@ -212,9 +212,9 @@ export const Address = styled.input.attrs({
     padding: 5px 17px;
     border-radius: 50px;
     border: 1px solid rgba(0,0,0, .1);
-    -webkit-box-shadow: 5px 5px 15px 2px #000000; 
+    /* -webkit-box-shadow: 5px 5px 15px 2px #000000; 
     -moz-box-shadow: 5px 5px 15px 2px #000000; 
-    box-shadow: 5px 5px 15px 2px #aaaaaa95;
+    box-shadow: 5px 5px 15px 2px #aaaaaa95; */
 
 `
 export const City = styled.input.attrs({
@@ -229,9 +229,9 @@ export const City = styled.input.attrs({
     padding: 5px 17px;
     border-radius: 50px;
     border: 1px solid rgba(0,0,0, .1);
-    -webkit-box-shadow: 5px 5px 15px 2px #000000; 
+    /* -webkit-box-shadow: 5px 5px 15px 2px #000000; 
     -moz-box-shadow: 5px 5px 15px 2px #000000; 
-    box-shadow: 5px 5px 15px 2px #aaaaaa95;
+    box-shadow: 5px 5px 15px 2px #aaaaaa95; */
 
 `
 
@@ -254,8 +254,8 @@ export const RBtnWrapper = styled.div`
     align-items: center;
     padding: 5px 7px;
     border: 1px solid rgba(0,0,0, .1);
-    -webkit-box-shadow: 1px 1px 7px 2px #00000040; 
-    box-shadow: 1px 1px 7px 2px #aaaaaa40;
+    /* -webkit-box-shadow: 1px 1px 7px 2px #00000040; 
+    box-shadow: 1px 1px 7px 2px #aaaaaa40; */
     border-radius: 10px;
     margin:0 8px 5px 8px;
 
