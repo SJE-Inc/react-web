@@ -8,8 +8,24 @@ export const HeroContainer = styled.div`
     align-items: center;
     padding: 0 30px;
     height: 100vh;
+    width: 100%;
     position: relative; 
     z-index: 1;
+
+    &:after{
+        content: '';
+        position: absolute;
+        top: 0; 
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(180deg, rgba(0,0,0, 0.2), rgba(0,0,0,0.6) 100%),
+        linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
+        z-index: 0;
+
+    }
 
 `
 
@@ -25,17 +41,17 @@ export const HeroBg = styled.div`
 
 `
 
-export const Overlay = styled.div`
-    position: absolute;
-    top: 0; 
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(180deg, rgba(0,0,0, 0.2), rgba(0,0,0,0.6) 100%),
-    linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
-`
+// export const Overlay = styled.div`
+//     position: absolute;
+//     top: 0; 
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     height: 100%;
+//     width: 100%;
+//     background: linear-gradient(180deg, rgba(0,0,0, 0.2), rgba(0,0,0,0.6) 100%),
+//     linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
+// `
 
 export const VideoBg = styled.video`
     width: 100%;
@@ -68,6 +84,10 @@ export const HeroH1 = styled.h1`
         font-size: 64px;
     }
 
+    @media screen and (max-height: 480px){
+        font-size: 48px;
+    }
+
     @media screen and (max-width: 480px){
         font-size: 58px;
         text-align: left;
@@ -87,6 +107,10 @@ export const HeroP = styled.p`
 
     @media screen and (max-width: 768px){
         font-size: 24px;
+    }
+
+    @media screen and (max-height: 480px){
+        font-size: 18px;
     }
 
     @media screen and (max-width: 480px){
@@ -148,13 +172,22 @@ export const ScrollWrapper = styled.div`
     border-radius: 50%;
     border: 2px solid rgba(255,255,255, 0);
     animation: ${moveAnimation} 2s infinite ease-in-out;
+
+    @media screen and (max-height: 480px){
+        bottom: 1vh;
+    }
 `
 
 export const Scroll = styled(MdKeyboardArrowDown)`
     color: #010606;
-    font-size: 85px;
+    font-size: 65px;
 
     @media screen and (max-width: 480px){
-        font-size: 65px;
+        font-size: 45px;
     }
+
+    @media screen and (max-height: 480px){
+        font-size: 45px;
+    }
+
 `

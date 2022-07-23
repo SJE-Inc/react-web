@@ -146,7 +146,8 @@ export const FirstName = styled.input.attrs({
     padding: 5px 17px;
     border-radius: 50px;
     border: none;
-    -webkit-box-shadow: 5px 5px 15px 2px #000000; 
+    -webkit-box-shadow: 5px 5px 15px 2px #000000;
+    -moz-box-shadow: 5px 5px 15px 2px #000000; 
     box-shadow: 5px 5px 15px 2px #aaaaaa95;
 
 `
@@ -163,6 +164,7 @@ export const LastName = styled.input.attrs({
     border-radius: 50px;
     border: none;
     -webkit-box-shadow: 5px 5px 15px 2px #000000; 
+    -moz-box-shadow: 5px 5px 15px 2px #000000; 
     box-shadow: 5px 5px 15px 2px #aaaaaa95;
 `
 export const Email = styled.input.attrs({
@@ -176,7 +178,8 @@ export const Email = styled.input.attrs({
     padding: 5px 17px;
     border-radius: 50px;
     border: none;
-    -webkit-box-shadow: 5px 5px 15px 2px #000000; 
+    -webkit-box-shadow: 5px 5px 15px 2px #000000;
+    -moz-box-shadow: 5px 5px 15px 2px #000000;  
     box-shadow: 5px 5px 15px 2px #aaaaaa95;
 
 `
@@ -193,6 +196,7 @@ export const Number = styled.input.attrs({
     border-radius: 50px;
     border: none;
     -webkit-box-shadow: 5px 5px 15px 2px #000000; 
+    -moz-box-shadow: 5px 5px 15px 2px #000000; 
     box-shadow: 5px 5px 15px 2px #aaaaaa95;
 
 `
@@ -209,6 +213,7 @@ export const Address = styled.input.attrs({
     border-radius: 50px;
     border: none;
     -webkit-box-shadow: 5px 5px 15px 2px #000000; 
+    -moz-box-shadow: 5px 5px 15px 2px #000000; 
     box-shadow: 5px 5px 15px 2px #aaaaaa95;
 
 `
@@ -225,6 +230,7 @@ export const City = styled.input.attrs({
     border-radius: 50px;
     border: none;
     -webkit-box-shadow: 5px 5px 15px 2px #000000; 
+    -moz-box-shadow: 5px 5px 15px 2px #000000; 
     box-shadow: 5px 5px 15px 2px #aaaaaa95;
 
 `
