@@ -9,6 +9,8 @@ const HeroSection = () => {
         setHover(!hover)
     }
 
+    // let VH = `${window.innerHeight * 0.01}px`;
+
     return (
         <HeroContainer id="home">
             <HeroBg>
