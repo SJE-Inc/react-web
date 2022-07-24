@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Video from '../../videos/video.mp4'
+import Poster from '../../images/poster.png'
 import { HeroBg, HeroContainer, Scroll, VideoBg, HeroContent, HeroH1, Green, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight, ScrollWrapper } from './HeroElements'
 import { Button } from '../BtnElement'
 const HeroSection = () => {
@@ -17,7 +18,7 @@ const HeroSection = () => {
         <HeroContainer id="home">
             <HeroBg>
                 {/* <Overlay></Overlay> */}
-                <VideoBg autoPlay={true} loop={true} muted={true} src={Video} type='video/mp4' />
+                <VideoBg poster={Poster} autoPlay={true} loop={true} muted={true} src={Video} type='video/mp4' />
 
             </HeroBg>
             <HeroContent>
