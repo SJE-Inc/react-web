@@ -1,5 +1,6 @@
 import styled, { keyframes } from 'styled-components'
 import { MdKeyboardArrowRight, MdArrowForward, MdKeyboardArrowDown } from 'react-icons/md'
+import img from '../../images/poster.png'
 
 export const HeroContainer = styled.div`
     background: #0c0c0c;
@@ -26,6 +27,12 @@ export const HeroContainer = styled.div`
 
     }
 
+    @media screen and (max-width: 760px){
+        background-image: url(${img});
+        background-position: center;
+        background-size: cover;
+    }
+
 `
 
 export const HeroBg = styled.div`
@@ -37,6 +44,11 @@ export const HeroBg = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
+
+    @media screen and (max-width: 760px){
+        display: none;
+        visibility: hidden;
+    }
 
 `
 
