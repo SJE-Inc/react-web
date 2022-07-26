@@ -9,7 +9,7 @@ export const HeroContainer = styled.div`
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    position: sticky; 
+    position: relative; 
     z-index: 1;
 
     &:after{
@@ -27,11 +27,11 @@ export const HeroContainer = styled.div`
 
     }
 
-    @media screen and (max-width: 760px){
+    /* @media screen and (max-width: 760px){
         background-image: url(${img});
         background-position: center;
         background-size: cover;
-    }
+    } */
 
 `
 
@@ -44,11 +44,11 @@ export const HeroBg = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
-
+/* 
     @media screen and (max-width: 760px){
         display: none;
         visibility: hidden;
-    }
+    } */
 
 `
 
