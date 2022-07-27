@@ -13,6 +13,7 @@ const Services = ({ primary, secondary, dark, dark2, Header2, Header3, PWD1, PWD
                 <TopLine>Services &amp; Pricing</TopLine>
                 <ServicesH1 lightText={lightText} >Our Pricing and <Red>Services</Red></ServicesH1>
                 <ServicesWrapper>
+                    {/* lawn care */}
                     <ServicesCard lightBg={lightBg}>
                         <ServicesH2 darkText={darkText}>{Header1}</ServicesH2>
                         <ServicesIcon src={Icon1} />
@@ -33,14 +34,15 @@ const Services = ({ primary, secondary, dark, dark2, Header2, Header3, PWD1, PWD
                             dark={dark ? 1 : 0}
                             dark2={dark2 ? 1 : 0}>More Info</Button>
                     </ServicesCard>
+                    {/* pressure washing */}
                     <ServicesCard lightBg={lightBg}>
                         <ServicesH2 darkText={darkText}>{Header2}</ServicesH2>
                         <ServicesIcon src={Icon3} />
                         <ServicePrice>{Price2}</ServicePrice>
                         <ServiceUl>
-                            <ServiceLi darkText={darkText}>{PWD1}</ServiceLi>
-                            <ServiceLi darkText={darkText}>{PWD2}</ServiceLi>
-                            <ServiceLi darkText={darkText}>{PWD3}</ServiceLi>
+                            <ServiceLi darkText={darkText}>{PCD1}</ServiceLi>
+                            <ServiceLi darkText={darkText}>{PCD2}</ServiceLi>
+                            <ServiceLi darkText={darkText}>{PCD3}</ServiceLi>
                         </ServiceUl>
 
                         <Button to="contact"
@@ -54,14 +56,15 @@ const Services = ({ primary, secondary, dark, dark2, Header2, Header3, PWD1, PWD
                             dark={dark ? 1 : 0}
                             dark2={dark2 ? 1 : 0}>More Info</Button>
                     </ServicesCard>
+                    {/* property cleanup */}
                     <ServicesCard lightBg={lightBg}>
                         <ServicesH2 darkText={darkText}>{Header3}</ServicesH2>
                         <ServicesIcon src={Icon2} />
                         <ServicePrice>{Price3}</ServicePrice>
                         <ServiceUl>
-                            <ServiceLi darkText={darkText}>{PCD1}</ServiceLi>
-                            <ServiceLi darkText={darkText}>{PCD2}</ServiceLi>
-                            <ServiceLi darkText={darkText}>{PCD3}</ServiceLi>
+                            <ServiceLi darkText={darkText}>{PWD1}</ServiceLi>
+                            <ServiceLi darkText={darkText}>{PWD2}</ServiceLi>
+                            <ServiceLi darkText={darkText}>{PWD3}</ServiceLi>
                         </ServiceUl>
                         <Button to="contact"
                             smooth={true}
