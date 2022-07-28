@@ -8,6 +8,7 @@ import Services from '../components/Services'
 import { generalServices, LC, PC, PW } from '../components/Services/Data'
 import UserForm from '../components/Forms/UserForm'
 import Footer from '../components/Footer'
+import PageLoader from '../components/PageLoader/PageLoader'
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
 
     return (
         <>
+            <PageLoader />
             <SideBar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
             <HeroSection />

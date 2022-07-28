@@ -11,11 +11,8 @@ const HeroSection = () => {
         setHover(!hover)
     }
 
-    // let vh = `${window.innerHeight * 0.01}px`;
-    // document.documentElement.style.setProperty('--vh', `${vh}px`);
-
     return (
-        <HeroContainer id="home">
+        <HeroContainer id="home" >
             <HeroBg>
                 {/* <Overlay></Overlay> */}
                 <VideoBg poster={Poster} autoPlay loop muted defaultMuted playsInline src={Video} type='video/mp4' />
