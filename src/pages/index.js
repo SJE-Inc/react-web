@@ -11,7 +11,6 @@ import Footer from '../components/Footer'
 import PageLoader from '../components/PageLoader/PageLoader'
 
 
-import MessengerCustomerChat from 'react-messenger-customer-chat';
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
 
@@ -33,10 +32,6 @@ const Home = () => {
             <InfoSection {...homeObjTwo} />
             <UserForm />
             <Footer />
-            <MessengerCustomerChat
-                pageId="102430202572038"
-                appId="925574071736483"
-            />
         </>
     )
 }
