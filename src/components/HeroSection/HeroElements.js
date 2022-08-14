@@ -131,6 +131,29 @@ export const HeroP = styled.p`
     }
 `
 
+export const HeroPRed = styled.p`
+    margin-top: 14px;
+    color: #01bf71;
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+
+
+    @media screen and (max-width: 768px){
+        font-size: 24px;
+    }
+
+    @media screen and (max-height: 480px){
+        font-size: 18px;
+    }
+
+    @media screen and (max-width: 480px){
+        /* font-size: 24px; */
+        text-align: left;
+    }
+`
+
 export const HeroBtnWrapper = styled.div`
     margin-top:  25px;
     display: flex;

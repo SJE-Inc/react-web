@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Video from '../../videos/video.mp4'
 import Poster from '../../images/poster.png'
-import { HeroBg, HeroContainer, Scroll, VideoBg, HeroContent, HeroH1, Green, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight, ScrollWrapper } from './HeroElements'
+import { HeroBg, HeroPRed, HeroContainer, Scroll, VideoBg, HeroContent, HeroH1, Green, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight, ScrollWrapper } from './HeroElements'
 import { Button } from '../BtnElement'
 const HeroSection = () => {
 
@@ -19,6 +19,7 @@ const HeroSection = () => {
 
             </HeroBg>
             <HeroContent>
+                <HeroPRed>TEXT! 857-330-4089</HeroPRed>
                 <HeroH1>Convenient <Green>Lawn Services</Green> for Everyone</HeroH1>
                 <HeroP>Overgrown grass or a dirty pathway is no problem for us!</HeroP>
                 <HeroBtnWrapper>
